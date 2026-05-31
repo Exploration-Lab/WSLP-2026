@@ -1,0 +1,199 @@
+<div
+  style={{
+    maxWidth: '900px',
+    margin: '2.5rem auto',
+    padding: '2rem 1.5rem',
+    background: '#fff',
+    borderRadius: '12px',
+    boxShadow: '0 2px 8px #0001',
+    fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif',
+    lineHeight: '1.6',
+    color: '#333'
+  }}
+>
+
+# 🧠 Shared Tasks @ WSLP 2026 – Sign Language
+
+> ⚠️ **Interested in participating?**  
+> Join our [Discord server](https://discord.gg/su2rRxSjkY) to stay updated and connect with other participants!
+
+## 🧾 Call for Shared Tasks
+
+**WSLP 2026: Workshop on Sign Language Translation**
+
+- 📍 *Co-located with EMNLP 2026*
+- 📅 *Date: TBD*
+- 📍 *EMNLP 2026*
+
+WSLP 2026 invites participants to three **Shared Tasks** addressing key challenges in **Indian Sign Language (ISL) processing**.
+
+## 🔍 Shared Tasks Overview
+
+| Tasks                       | Focus                                            | Public Dataset                                                                 | Task dataset | Codabench  |
+|-----------------------------|--------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| ISL to English Translation   | Sentence-level translation from ISL videos/pose to English | [iSign](https://huggingface.co/datasets/Exploration-Lab/iSign)          | [Translation Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_MT) | [Translation Codabench](https://www.codabench.org/competitions/10118/?secret_key=7dd5b72d-6b95-4c97-9529-6205ae0dce17) |
+| Word/Gloss Recognition      | Isolated sign recognition at the word level       | [CISLR](https://huggingface.co/datasets/Exploration-Lab/CISLR)          | [word Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WR) | [Word Recognition Codabench](https://www.codabench.org/competitions/10135/?secret_key=71e01e84-774c-414e-96d4-81ca55698b3e) |
+| Word Presence Prediction    | Detecting presence of a word in a signed sentence | [Word Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/iSign/viewer/word-presence-dataset_v1.1?views%5B%5D=word_presence_dataset_v11) | [Word Presence Prediction Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WPP) | [Word Presence Prediction Codabench](https://www.codabench.org/competitions/10066/?secret_key=10b4792f-4959-4ad5-b4e2-965c84659b5c) |
+
+## 📋 Shared Tasks Details
+
+### 🌐 Task 1: ISL to English Translation
+
+**Goal:** Translate sentence-level Indian Sign Language (ISL) videos/poses into English text.
+
+- **Challenges:** Visual-linguistic grounding, grammar, gesture ambiguity
+- **Use Cases:** Sign-enabled chatbots, video interpreters, accessible interfaces
+- **Dataset:** Public Dataset [iSign](https://huggingface.co/datasets/Exploration-Lab/iSign) (118,000 video-sentence pairs) , Task validation and Test dataset [Translation Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_MT) 
+- **Metrics:** BLEU, ROUGE, chrF
+- **Input ➝ Output:** ISL video/pose ➝ English sentence
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
+  <div style={{ flex: '0 1 300px' }}>
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style={{ width: '300px', height: '200px', objectFit: 'cover', borderRadius: '4px', border: '1px solid #000' }}
+    >
+      <source src="/WSLP/The_ban_would_mean_she_can't_compete_in_any_national_or_other_domestic_events.mp4" type="video/mp4" />
+    </video>
+    <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: '#666' }}>
+      <strong>English Translation:</strong> "The ban would mean she can't compete in any national or other domestic events"
+    </div>
+  </div>
+</div>
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '1.5rem' }}>
+  <a href="https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_MT" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Dataset
+  </a>
+  <a href="https://www.codabench.org/competitions/10118/?secret_key=7dd5b72d-6b95-4c97-9529-6205ae0dce17" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Codabench
+  </a>
+</div>
+
+---
+
+### ✋ Task 2: Word/Gloss Recognition
+
+**Goal:** Recognize isolated ISL signs (words or glosses) from short video clips.
+
+- **Challenges:** Sign variability, subtle motion, similar gestures
+- **Use Cases:** Dictionary building, lookup tools, annotation
+- **Dataset:** Dataset  [word Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WR)
+- **Metrics:** Accuracy, Top-K Accuracy
+- **Input ➝ Output:** Video clip ➝ Word label
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
+  <div style={{ flex: '0 1 300px' }}>
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style={{ width: '300px', height: '200px', objectFit: 'cover', borderRadius: '4px', border: '1px solid #000' }}
+    >
+      <source src="/WSLP/National_(Sign_2).mp4" type="video/mp4" />
+    </video>
+    <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: '#666' }}>
+      <strong>Label:</strong> "National"
+    </div>
+  </div>
+</div>
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '1.5rem' }}>
+  <a href="https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WR" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Dataset
+  </a>
+  <a href="https://www.codabench.org/competitions/10135/?secret_key=71e01e84-774c-414e-96d4-81ca55698b3e" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Codabench
+  </a>
+</div>
+
+---
+
+### 🔍 Task 3: Word Presence Prediction
+
+**Goal:** Predict if a given word is present in a full ISL sentence video.
+
+- **Challenges:** Sign spotting, context alignment
+- **Use Cases:** Query-based video retrieval, sign search
+- **Dataset:** [Word Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WPP)
+- **Metrics:** Accuracy, Precision, Recall, F1
+- **Input ➝ Output:** (Video, Word) ➝ Present / Not Present
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center', margin: '2rem 0' }}>
+  <div style={{ flex: '0 1 300px' }}>
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style={{ width: '300px', height: '200px', objectFit: 'cover', borderRadius: '4px', border: '1px solid #000' }}
+    >
+      <source src="/WSLP/National_(Sign_2).mp4" type="video/mp4" />
+    </video>
+    <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: '#666' }}>
+      Query Word: "National"
+    </div>
+  </div>
+  <div style={{ flex: '0 1 300px' }}>
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      style={{ width: '300px', height: '200px', objectFit: 'cover', borderRadius: '4px', border: '1px solid #000' }}
+    >
+      <source src="/WSLP/The_ban_would_mean_she_can't_compete_in_any_national_or_other_domestic_events.mp4" type="video/mp4" />
+    </video>
+    <div style={{ marginTop: '0.75rem', fontSize: '0.9rem', color: '#666' }}>
+      Sentence Video: "The ban would mean she can't compete in any national or other domestic events" contains: "National"
+    </div>
+  </div>
+</div>
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '1.5rem' }}>
+  <a href="https://huggingface.co/datasets/Exploration-Lab/WSLP-AACL-2026/tree/main/Shared_task_WPP" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Word Presence Dataset
+  </a>
+  <a href="https://www.codabench.org/competitions/10066/?secret_key=10b4792f-4959-4ad5-b4e2-965c84659b5c" target="_blank" style={{ padding: '8px 16px', backgroundColor: 'white', color: '#0a0a0a', textDecoration: 'none', borderRadius: '4px', fontSize: '0.9rem', border: '1px solid #0a0a0a', transition: 'all 0.2s ease' }}>
+    Codabench
+  </a>
+</div>
+
+---
+
+## 🗓 Key Dates
+
+| Event                        | Date                          |
+|------------------------------|-------------------------------|
+| 🟢 Start Date               | August 15, 2026                  |
+| 📚 Training Phase           | August 15 – October 5, 2026      |
+| 🧪 Testing Phase            | October 5 – October 15, 2026 |
+| 📄 Paper Submission Deadline| October 25, 2026            |
+| 📬 Notification of Acceptance| November 3, 2026              |
+| 📸 Camera-ready Papers Due  | November 11, 2026             |
+| 📚 Proceedings Due          | December 1, 2026              |
+
+## 👥 Call for Participation
+
+We invite **researchers**, **students**, and **developers** in **computer vision**, **natural language processing**, **speech and gesture technology**, or related fields to participate. Contribute to building inclusive tools for millions of ISL users.
+
+**Contact Organizers:**
+- **Abhinav Joshi**: [ajoshi@cse.iitk.ac.in](mailto:ajoshi@cse.iitk.ac.in)
+- **Sanjeet Singh**: [sanjeet@cse.iitk.ac.in](mailto:sanjeet@cse.iitk.ac.in)
+
+## 📦 Submission Guidelines
+
+- **Platform:** Codabench
+- **Team Size:** Max 4 members (TBD)
+- **Format:** To be released with dataset
+- **Requirements:** Output on test set + short documentation
+- **Paper Submission:** Full (8 pages) or short (4 pages) papers, following [ACL Style](https://github.com/acl-org/acl-style-files). Double-blind review. Accepted papers get +1 page for revisions.
+
+
+> ✅ **Get ready** to build impactful AI tools for the Deaf community. 
+
+</div>

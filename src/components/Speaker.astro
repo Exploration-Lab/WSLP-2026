@@ -1,0 +1,30 @@
+---
+interface Props {
+  image_path: string;
+  name: string;
+  affiliation: string;
+  description?: string;
+  link: string;
+}
+
+const { image_path, name, affiliation, description = undefined, link} = Astro.props as Props;
+---
+
+<div class="flex flex-col bg-white shadow-sm border border-slate-200 rounded-lg sm:max-w-75 items-center">
+  <div class="m-2.5  overflow-hidden rounded-md flex justify-center items-center">
+    <img class="w-full h-full object-cover" src={image_path} alt="profile-picture" />
+  </div>
+  <div class="flex flex-col text-black m-3 items-center">
+    <a href={link} class="underline">
+      <h4 class="text-xl font-semibold text-center break-words">{name}</h4>
+    </a>
+    <p class="text-sm font-semibold text-zinc-400 text-center break-words">
+      {affiliation}
+    </p>
+    {description && (
+      <p class="text-base text-slate-600 mt-4 text-center break-words">
+        {description}
+      </p>
+    )}
+  </div>
+</div>
