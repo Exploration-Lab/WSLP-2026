@@ -241,6 +241,14 @@ const site_config: SiteConfig = {
         link: "https://facundoq.github.io/"
     },
     {
+        image_path: "/WSLP-2026/foto_MHR.jpg",
+        name: "Marek Hrúz",
+        affiliation: "University of West Bohemia in Pilsen, Czech Republic",
+        description: '',
+        // "Professor and full-time researcher at Instituto de Investigación en Informática LIDI, Facultad de Informática, UNLP. Over the last decade, he has focused on innovative approaches to Sign Language Translation, particularly Argentinian Sign Language (LSA), covering dataset collection, model development, data augmentation, and interpretability analysis.",
+        link: "https://scholar.google.cz/citations?user=f7M7JgQAAAAJ&hl=cs"
+    },
+    {
         image_path: "/WSLP/Sabyasachi-Kamila.jpg",
         name: "Sabyasachi Kamila",
         affiliation: "Vellore Institute of Technology Vellore, India",
@@ -278,19 +286,35 @@ const site_config: SiteConfig = {
         affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
         // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
-        link: ""
+        link: "https://www.linkedin.com/in/dattatreya-pokala"
     },
     {
         image_path: "/WSLP-2026/khushi.jpeg",
-        name: "Khushi",
+        name: "Khushi Jaydeep Pujara",
         affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
         // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
-        link: ""
+        link: "https://www.linkedin.com/in/khushi-jaydeep-pujara"
+    },
+    {
+        image_path: "/WSLP-2026/Ivan_Gruber.jpg",
+        name: "Ivan Gruber",
+        affiliation: "Senior Researcher, University of West Bohemia in Pilsen, Czech Republic",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: "https://www.linkedin.com/in/ivan-gruber-0a1b29196/"
+    },
+    {
+        image_path: "/WSLP-2026/tz.jpg",
+        name: "Tomáš Železný",
+        affiliation: "University of West Bohemia in Pilsen, Czech Republic",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: "https://www.linkedin.com/in/zeleznyt/"
     },
     {
         image_path: "",
-        name: "Tomáš Železný",
+        name: "Jakub Honzík",
         affiliation: "University of West Bohemia in Pilsen, Czech Republic",
         description:'',
         // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
