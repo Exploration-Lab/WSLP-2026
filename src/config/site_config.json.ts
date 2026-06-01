@@ -249,7 +249,7 @@ const site_config: SiteConfig = {
         link: "mailto:sabyasachi.kamila@gmail.com"
     },
     {
-        image_path: "/WSLP/Abhinav-Joshi.png",
+        image_path: "/WSLP-2026/Abhinav-Joshi.png",
         name: "Abhinav Joshi",
         affiliation: "Ph.D. Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
@@ -273,7 +273,7 @@ const site_config: SiteConfig = {
         link: "http://www.linkedin.com/in/keren-artiaga-249132228"
     },
     {
-        image_path: "/WSLP/datta.jpeg",
+        image_path: "/WSLP-2026/datta.jpeg",
         name: "Pokala Dattatreya",
         affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
@@ -281,7 +281,7 @@ const site_config: SiteConfig = {
         link: ""
     },
     {
-        image_path: "/DATAS3/Sign_language_data_extended/FINAL_data/All_video_sign_language/Workshop_Shared_task/WSLP-Website/WSLP-2026/public/khushi.jpeg",
+        image_path: "/WSLP-2026/khushi.jpeg",
         name: "Khushi",
         affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
