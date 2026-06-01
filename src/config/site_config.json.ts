@@ -273,7 +273,7 @@ const site_config: SiteConfig = {
         link: "http://www.linkedin.com/in/keren-artiaga-249132228"
     },
     {
-        image_path: "/DATAS3/Sign_language_data_extended/FINAL_data/All_video_sign_language/Workshop_Shared_task/WSLP-Website/WSLP-2026/public/datta.jpeg",
+        image_path: "/WSLP/datta.jpeg",
         name: "Pokala Dattatreya",
         affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
         description:'',
