@@ -69,7 +69,7 @@ const site_config: SiteConfig = {
     main_conf_link: "https://2026.emnlp.org/",
     location: "Budapest, Hungary",
     date: "October 24 –29, 2026",
-    nav_title: "WSLP",
+    nav_title: "WSLP-2026",
     nav_items: [
         { name: "Call for Papers", href: "/WSLP-2026/call" },
         { name: "Shared Task", href: "/WSLP-2026/task" },
