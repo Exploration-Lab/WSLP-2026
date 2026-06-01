@@ -69,7 +69,7 @@ const site_config: SiteConfig = {
     main_conf_link: "https://2026.emnlp.org/",
     location: "Budapest, Hungary",
     date: "October 24 –29, 2026",
-    nav_title: "WSLP-2026",
+    nav_title: "WSLP",
     nav_items: [
         { name: "Call for Papers", href: "/WSLP-2026/call" },
         { name: "Shared Task", href: "/WSLP-2026/task" },
@@ -86,7 +86,7 @@ const site_config: SiteConfig = {
     email_link: "isign.benchmark@gmail.com",
     // youtube_link: "https://www.youtube.com/@WSLP",
     // x_link: "https://twitter.com/WSLP",
-    github_link: "https://github.com/WSLP",
+    github_link: "https://github.com/WSLP-2026",
     // bluesky_link: "https://bsky.app/profile/WSLP.bsky.social",
     program_events:[],
 //     program_events: [
