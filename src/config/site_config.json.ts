@@ -57,7 +57,7 @@ interface SiteConfig {
     }>;
 }
 const site_config: SiteConfig = {
-    website_url: "https://exploration-lab.github.io/",
+    website_url: "https://exploration-lab.github.io/WSLP-2026",
     banner_path: "2026/banner.png",
     x_handle: "@WSLP",
     keywords: "WSLP, IJCNLP - AACL, NLP, Workshop, XAI,  Language Models, Sign Language Translation, Low-Resource Languages, Shared Task, Sign Language Processing, Multimodal Machine Learning, Indian Sign Language",
