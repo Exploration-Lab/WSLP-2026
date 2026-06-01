@@ -249,14 +249,6 @@ const site_config: SiteConfig = {
         link: "mailto:sabyasachi.kamila@gmail.com"
     },
     {
-        image_path: "/WSLP/Keren-Artiaga.jpg",
-        name: "Keren Artiaga",
-        affiliation: "ADAPT Centre, MTU, Cork, Ireland",
-        description:'',
-        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
-        link: "http://www.linkedin.com/in/keren-artiaga-249132228"
-    },
-    {
         image_path: "/WSLP/Abhinav-Joshi.png",
         name: "Abhinav Joshi",
         affiliation: "Ph.D. Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
@@ -271,6 +263,38 @@ const site_config: SiteConfig = {
         description:'',
         // "Ph.D. student in Computer Science at IIT Kanpur. Research focuses on Indian Sign Language Processing.",
         link: "https://sites.google.com/view/sanjeet-singh"
+    },
+    {
+        image_path: "/WSLP/Keren-Artiaga.jpg",
+        name: "Keren Artiaga",
+        affiliation: "ADAPT Centre, MTU, Cork, Ireland",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: "http://www.linkedin.com/in/keren-artiaga-249132228"
+    },
+    {
+        image_path: "/DATAS3/Sign_language_data_extended/FINAL_data/All_video_sign_language/Workshop_Shared_task/WSLP-Website/WSLP-2026/public/datta.jpeg",
+        name: "Pokala Dattatreya",
+        affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: ""
+    },
+    {
+        image_path: "/DATAS3/Sign_language_data_extended/FINAL_data/All_video_sign_language/Workshop_Shared_task/WSLP-Website/WSLP-2026/public/khushi.jpeg",
+        name: "Khushi",
+        affiliation: "Masters Student, Indian Institute of Technology Kanpur (IIT Kanpur), India",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: ""
+    },
+    {
+        image_path: "",
+        name: "Tomáš Železný",
+        affiliation: "University of West Bohemia in Pilsen, Czech Republic",
+        description:'',
+        // "Ph.D. student in Computer Science at ADAPT Centre, MTU. Specializes in sign language-to-speech translation.",
+        link: "https://www.linkedin.com/in/zeleznyt/"
     }
     ],
 
