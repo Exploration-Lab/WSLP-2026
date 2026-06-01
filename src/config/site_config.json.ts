@@ -297,7 +297,7 @@ const site_config: SiteConfig = {
         link: "https://www.linkedin.com/in/khushi-jaydeep-pujara"
     },
     {
-        image_path: "/WSLP-2026/Ivan_Gruber.jpg",
+        image_path: "/WSLP-2026/Ivan_Gruber.png",
         name: "Ivan Gruber",
         affiliation: "Senior Researcher, University of West Bohemia in Pilsen, Czech Republic",
         description:'',
