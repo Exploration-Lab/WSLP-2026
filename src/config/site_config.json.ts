@@ -216,7 +216,14 @@ const site_config: SiteConfig = {
     panelists: [],
     sponsors: [],
         organizers: [
-
+    {
+        image_path: "/WSLP/Ashutosh-New.jpg",
+        name: "Ashutosh Modi",
+        affiliation: "Indian Institute of Technology Kanpur (IIT Kanpur), India",
+        description: '',
+        // "Associate Professor at IIT Kanpur. Specializes in Indian Sign Language Processing, emotion recognition in multimodal environments, NLP applications in legal contexts, and commonsense reasoning in LLMs.",
+        link: "https://ashutosh-modi.github.io/"
+    },
     {
         image_path: "/WSLP/Mohammed-Hasanuzzaman.jpeg",
         name: "Mohammed Hasanuzzaman",
@@ -232,14 +239,6 @@ const site_config: SiteConfig = {
         description: '',
         // "Professor and full-time researcher at Instituto de Investigación en Informática LIDI, Facultad de Informática, UNLP. Over the last decade, he has focused on innovative approaches to Sign Language Translation, particularly Argentinian Sign Language (LSA), covering dataset collection, model development, data augmentation, and interpretability analysis.",
         link: "https://facundoq.github.io/"
-    },
-    {
-        image_path: "/WSLP/Ashutosh-New.jpg",
-        name: "Ashutosh Modi",
-        affiliation: "Indian Institute of Technology Kanpur (IIT Kanpur), India",
-        description: '',
-        // "Associate Professor at IIT Kanpur. Specializes in Indian Sign Language Processing, emotion recognition in multimodal environments, NLP applications in legal contexts, and commonsense reasoning in LLMs.",
-        link: "https://ashutosh-modi.github.io/"
     },
     {
         image_path: "/WSLP/Sabyasachi-Kamila.jpg",
