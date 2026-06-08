@@ -233,20 +233,20 @@ const site_config: SiteConfig = {
         link: "https://mohammedhasanuzzaman.github.io/"
     },
     {
-        image_path: "/WSLP/Facundo-Quiroga.png",
-        name: "Facundo Manuel Quiroga",
-        affiliation: "Universidad Nacional de La Plata (UNLP), Argentina",
-        description: '',
-        // "Professor and full-time researcher at Instituto de Investigación en Informática LIDI, Facultad de Informática, UNLP. Over the last decade, he has focused on innovative approaches to Sign Language Translation, particularly Argentinian Sign Language (LSA), covering dataset collection, model development, data augmentation, and interpretability analysis.",
-        link: "https://facundoq.github.io/"
-    },
-    {
         image_path: "/WSLP-2026/foto_MHR.jpg",
         name: "Marek Hrúz",
         affiliation: "University of West Bohemia in Pilsen, Czech Republic",
         description: '',
         // "Professor and full-time researcher at Instituto de Investigación en Informática LIDI, Facultad de Informática, UNLP. Over the last decade, he has focused on innovative approaches to Sign Language Translation, particularly Argentinian Sign Language (LSA), covering dataset collection, model development, data augmentation, and interpretability analysis.",
         link: "https://scholar.google.cz/citations?user=f7M7JgQAAAAJ&hl=cs"
+    },
+    {
+        image_path: "/WSLP/Facundo-Quiroga.png",
+        name: "Facundo Manuel Quiroga",
+        affiliation: "Universidad Nacional de La Plata (UNLP), Argentina",
+        description: '',
+        // "Professor and full-time researcher at Instituto de Investigación en Informática LIDI, Facultad de Informática, UNLP. Over the last decade, he has focused on innovative approaches to Sign Language Translation, particularly Argentinian Sign Language (LSA), covering dataset collection, model development, data augmentation, and interpretability analysis.",
+        link: "https://facundoq.github.io/"
     },
     {
         image_path: "/WSLP/Sabyasachi-Kamila.jpg",
