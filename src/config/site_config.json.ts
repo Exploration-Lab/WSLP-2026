@@ -64,7 +64,7 @@ const site_config: SiteConfig = {
     authors: "WSLP 2026 Organizers",
     logo_path: "/WSLP/logo1.png",
     name: "WSLP 2026",
-    description: "Workshop on Sign Language Processing (WSLP)",
+    description: "2nd Workshop on Sign Language Processing (WSLP-2026)",
     main_conf: "EMNLP 2026",
     main_conf_link: "https://2026.emnlp.org/",
     location: "Budapest, Hungary",
@@ -227,10 +227,10 @@ const site_config: SiteConfig = {
     {
         image_path: "/WSLP/Mohammed-Hasanuzzaman.jpeg",
         name: "Mohammed Hasanuzzaman",
-        affiliation: "Queen’s University Belfast, UK & ADAPT Centre, MTU, Ireland",
+        affiliation: "ADAPT Centre, MTU, Ireland",
         description: '',
         // "Lecturer (Assistant Professor) in AI at Queen’s University Belfast and Funded Investigator at the ADAPT Centre, MTU. His research focuses on NLP and causal machine learning. He serves as an Associate Editor for several IEEE and ACM journals. Mohammed has organized multiple workshops at top-tier conferences and served as Area Chair for ACL and affiliated conferences. He leads EU projects like WARIFA and ITFLOWS and has received the Erasmus+ Staff Mobility Award and DCU INVENT Award for Industry Engagement.",
-        link: "https://mohammedhasanuzzaman.github.io/"
+        link: "https://scholar.google.com/citations?user=DhNDPn8AAAAJ&hl=en"
     },
     {
         image_path: "/WSLP-2026/foto_MHR.jpg",
@@ -251,7 +251,7 @@ const site_config: SiteConfig = {
     {
         image_path: "/WSLP/Sabyasachi-Kamila.jpg",
         name: "Sabyasachi Kamila",
-        affiliation: "Vellore Institute of Technology Vellore, India",
+        affiliation: "Manipal Institute of Technology Bengaluru, Manipal Academy of Higher Education, Manipal, India",
         description:'',
         // "Assistant Professor at VIT Vellore, specializing in AI and NLP, with a focus on affective computing, conversational reasoning, and sign language translation.",
         link: "mailto:sabyasachi.kamila@gmail.com"
