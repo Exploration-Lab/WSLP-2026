@@ -313,7 +313,7 @@ const site_config: SiteConfig = {
         link: "https://www.linkedin.com/in/zeleznyt/"
     },
     {
-        image_path: "/WSLP-2026/dist/jakub.jpg",
+        image_path: "/WSLP-2026/jakub.jpg",
         name: "Jakub Honzík",
         affiliation: "University of West Bohemia in Pilsen, Czech Republic",
         description:'',
