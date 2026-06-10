@@ -325,7 +325,7 @@ const site_config: SiteConfig = {
     faq_items: [
         {
             question: "Are dual submissions allowed?",
-            answer: "Yes, dual submissions are allowed if the other venue also allows dual submissions. If your submission is accepted to the archival track of WSLP, you will have to withdraw your submission to the other venue. Dual submissions to WSLP and IJCNLP - AACL (including ARR) are not allowed."
+            answer: "Yes, dual submissions are allowed if the other venue also allows dual submissions. If your submission is accepted to the archival track of WSLP, you will have to withdraw your submission to the other venue. Dual submissions to WSLP and EMNLP (including ARR) are not allowed."
         },
     ]
 };
