@@ -32,8 +32,8 @@ WSLP 2026 invites participants to three **Shared Tasks** addressing key challeng
 | Tasks                       | Focus                                            | Public Dataset                                                                 | Task dataset | Codabench  |
 |-----------------------------|--------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Sign Language Translation (SLT)   | Sentence-level translation from ISL videos/pose to English | [iSign](https://huggingface.co/datasets/Exploration-Lab/iSign)          | [Translation Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_MT) | [Translation Codabench](https://www.codabench.org/competitions/16884/?secret_key=81f590d7-67c3-42ca-ab66-e631b70490a8) |
-| Isolated Sign Language Recognition (ISLR)      | Isolated sign recognition at the word level       | [CISLR](https://huggingface.co/datasets/Exploration-Lab/CISLR)          | [word Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WR) | [Word Recognition Codabench](https://www.codabench.org/competitions/16890/?secret_key=9903f5e7-845c-40a9-af30-2db033c10d0c) |
-| Word Presence Prediction    | Detecting presence of a word in a signed sentence | [Word Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/iSign/viewer/word-presence-dataset_v1.1?views%5B%5D=word_presence_dataset_v11) | [Word Presence Prediction Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WPP) | [Word Presence Prediction Codabench](https://www.codabench.org/competitions/16887/?secret_key=6e39dde9-174c-45f7-8b8b-ff8e7164d8cc) |
+| Isolated Sign Language Recognition (ISLR)      | Isolated sign recognition at the word level       | [CISLR](https://huggingface.co/datasets/Exploration-Lab/CISLR)          | [Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WR) | [Recognition Codabench](https://www.codabench.org/competitions/16890/?secret_key=9903f5e7-845c-40a9-af30-2db033c10d0c) |
+| Word\Sign Presence Prediction    | Detecting presence of a word in a signed sentence | [Word\Sign Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/iSign/viewer/word-presence-dataset_v1.1?views%5B%5D=word_presence_dataset_v11) | [Word\Sign Presence Prediction Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WPP) | [Word\Sign Presence Prediction Codabench](https://www.codabench.org/competitions/16887/?secret_key=6e39dde9-174c-45f7-8b8b-ff8e7164d8cc) |
 
 Note: To access the public dataset, participants need to create a Hugging Face account and request access to the dataset.
 
@@ -83,7 +83,7 @@ Note: To access the public dataset, participants need to create a Hugging Face a
 
 - **Challenges:** Sign variability, subtle motion, similar gestures
 - **Use Cases:** Dictionary building, lookup tools, annotation
-- **Dataset:** Dataset  [word Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WR)
+- **Dataset:** Dataset  [Recognition Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WR)
 - **Metrics:** Accuracy, Top-K Accuracy
 - **Input ➝ Output:** Video clip ➝ Word label
 
@@ -115,13 +115,13 @@ Note: To access the public dataset, participants need to create a Hugging Face a
 
 ---
 
-### 🔍 Task 3: Word Presence Prediction
+### 🔍 Task 3: Word\ Sign Presence Prediction
 
 **Goal:** Predict if a given word is present in a full ISL sentence video.
 
 - **Challenges:** Sign spotting, context alignment
 - **Use Cases:** Query-based video retrieval, sign search
-- **Dataset:** [Word Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WPP)
+- **Dataset:** [Word\Sign Presence Dataset](https://huggingface.co/datasets/Exploration-Lab/WSLP/tree/main/Shared_task_WPP)
 - **Metrics:** Accuracy, Precision, Recall, F1
 - **Input ➝ Output:** (Video, Word) ➝ Present / Not Present
 
