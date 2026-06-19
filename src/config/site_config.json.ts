@@ -86,7 +86,7 @@ const site_config: SiteConfig = {
     email_link: "isign.benchmark@gmail.com",
     // youtube_link: "https://www.youtube.com/@WSLP",
     // x_link: "https://twitter.com/WSLP",
-    github_link: "https://github.com/WSLP-2026",
+    github_link: "https://github.com/zeleznyt/T5_for_SLT/blob/WSLP2026/WSLP2026_BASELINE.md",
     // bluesky_link: "https://bsky.app/profile/WSLP.bsky.social",
     program_events:[],
 //     program_events: [
