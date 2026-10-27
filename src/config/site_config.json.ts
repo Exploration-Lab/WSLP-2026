@@ -74,7 +74,7 @@ const site_config: SiteConfig = {
         { name: "Call for Papers", href: "/WSLP-2026/call" },
         { name: "Shared Task", href: "/WSLP-2026/task" },
         // { name: "News", href: "/WSLP/#news" },
-        // { name: "Program", href: "/WSLP/#program" },
+        { name: "Program", href: "/WSLP/#program" },
         { name: "Organizers", href: "/WSLP-2026/#organizers" },
         { name: "Important Dates", href: "/WSLP-2026/#news" },
     ],
@@ -89,6 +89,129 @@ const site_config: SiteConfig = {
     github_link: "https://github.com/zeleznyt/T5_for_SLT/blob/WSLP2026/WSLP2026_BASELINE.md",
     // bluesky_link: "https://bsky.app/profile/WSLP.bsky.social",
     program_events:[],
+    program_events: [
+    {
+        start_time: "08:50",
+        end_time: "09:10",
+        description: "**Opening and Welcome**  \
+Opening Welcome, workshop overview and introduction.",
+        papers: undefined,
+    },
+    {
+        start_time: "09:10",
+        end_time: "09:45",
+        description: "**Invited Talk 1** (30 min talk + 5 min Q&A)  \
+**Title:** _Sign Language Recognition in the Wild: Insights from Smartphone-Captured Datasets_  \
+**Speaker:** Prof. Hamzah Luqman",
+        papers: undefined,
+    },
+    {
+        start_time: "09:45",
+        end_time: "10:45",
+        description: "**Invited Talk 2** (45 min talk + 15 min Q&A)  \
+**Title:** _What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages_  \
+**Speaker:** Prof. Mayumi Bono",
+        papers: undefined,
+    },
+    {
+        start_time: "10:45",
+        end_time: "11:00",
+        description: "**Coffee Break**",
+        papers: undefined,
+    },
+    {
+        start_time: "11:00",
+        end_time: "12:00",
+        description: "**Paper presentations** (12 min each)  ",
+        papers: [
+            {
+                title: "11:00–11:12: ISLiM: A Compact End-to-End Sign Language Translation Framework",
+                authors: "",
+            },
+            {
+                title: "11:12–11:24: What Actually Transfers? Diagnosing Output-Projection Initialization in Low-Resource Sign Language Translation",
+                authors: "",
+            },
+            {
+                title: "11:24–11:36: Coverage Is Not Enough: A Controlled Study of Annotation Selection for Low-Resource Sign Language",
+                authors: "",
+            },
+            {
+                title: "11:36–11:48: LSC-CARE: An Annotated Dataset for Medical Catalan Sign Language",
+                authors: "",
+            },
+            {
+                title: "11:48–12:00: Recognizing Uruguayan Sign Language Glosses in Continuous Discourse: A Curated Dataset and First Baselines",
+                authors: "",
+            },
+        ],
+    },
+    {
+        start_time: "12:00",
+        end_time: "13:00",
+        description: "**Poster Presentations**  \
+20 Posters",
+        papers: undefined,
+    },
+    {
+        start_time: "13:00",
+        end_time: "14:00",
+        description: "**Lunch Break**",
+        papers: undefined,
+    },
+    {
+        start_time: "14:00",
+        end_time: "15:00",
+        description: "**Invited Talk 3** (45 min talk + 15 min Q&A)  \
+**Title:** _Beyond the Gloss: Linguistic Challenges in Sign Language Data Collection and Annotation_  \
+**Speaker:** Prof. Maram Salman Aljuaid",
+        papers: undefined,
+    },
+    {
+        start_time: "15:00",
+        end_time: "15:48",
+        description: "**Paper presentations** (12 min each)  ",
+        papers: [
+            {
+                title: "15:00–15:12: Using Sign Phonology to Improve Few-Shot Cross-Lingual Transfer Learning for Sign Language Recognition",
+                authors: "",
+            },
+            {
+                title: "15:12–15:24: Cross-Lingual Transfer of Self-Supervised Representations for Sign Language Translation: A Case Study for Turkish Sign Language",
+                authors: "",
+            },
+            {
+                title: "15:24–15:36: SpaMo-BdSL: Gloss-Free Bangla Sign Language Translation Using Spatial Configurations and Motion Dynamics with LLMs",
+                authors: "",
+            },
+            {
+                title: "15:36–15:48: Testing Video MLLM Sensitivity to Hand-Localized Visual Detail in Chinese Sign Recognition: A Matched Visual Intervention Study",
+                authors: "",
+            },
+        ],
+    },
+    {
+        start_time: "15:48",
+        end_time: "16:00",
+        description: "**Coffee Break**",
+        papers: undefined,
+    },
+    {
+        start_time: "16:00",
+        end_time: "17:00",
+        description: "**Invited Talk 4** (Online) (45 min talk + 15 min Q&A)  \
+**Title:** _A few steps toward understanding sign language in the real world_  \
+**Speaker:** Prof. Karen Livescu",
+        papers: undefined,
+    },
+    {
+        start_time: "17:00",
+        end_time: "17:10",
+        description: "**Closing Remarks**  \
+Closing Concluding remarks and acknowledgements.",
+        papers: undefined,
+    },
+],
 //     program_events: [
 //         {
 //             start_time: "09:00",
