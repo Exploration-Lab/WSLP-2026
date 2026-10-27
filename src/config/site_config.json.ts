@@ -74,7 +74,7 @@ const site_config: SiteConfig = {
         { name: "Call for Papers", href: "/WSLP-2026/call" },
         { name: "Shared Task", href: "/WSLP-2026/task" },
         // { name: "News", href: "/WSLP/#news" },
-        { name: "Program", href: "/WSLP/#program" },
+        { name: "Program", href: "/WSLP-2026/#program" },
         { name: "Organizers", href: "/WSLP-2026/#organizers" },
         { name: "Important Dates", href: "/WSLP-2026/#news" },
     ],
