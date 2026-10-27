@@ -89,6 +89,7 @@ const site_config: SiteConfig = {
     github_link: "https://github.com/zeleznyt/T5_for_SLT/blob/WSLP2026/WSLP2026_BASELINE.md",
     // bluesky_link: "https://bsky.app/profile/WSLP.bsky.social",
     program_events:[],
+    program_link: "https://docs.google.com/spreadsheets/d/1aNzV8nvcRwD1LR-zl7TNkIV2VfsmRcudoVct7fsNDJM/edit?usp=sharing",
     program_events: [
     {
         start_time: "08:50",
