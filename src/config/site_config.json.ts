@@ -93,8 +93,7 @@ const site_config: SiteConfig = {
     {
         start_time: "08:50",
         end_time: "09:10",
-        description: "**Opening and Welcome**  \
-Opening Welcome, workshop overview and introduction.",
+        description: "**Opening and Welcome** ",
         papers: undefined,
     },
     {
@@ -207,8 +206,7 @@ Opening Welcome, workshop overview and introduction.",
     {
         start_time: "17:00",
         end_time: "17:10",
-        description: "**Closing Remarks**  \
-Closing Concluding remarks and acknowledgements.",
+        description: "**Closing Remarks**",
         papers: undefined,
     },
 ],
