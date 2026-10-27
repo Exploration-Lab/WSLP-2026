@@ -330,7 +330,8 @@ const site_config: SiteConfig = {
     image_path: "/WSLP-2026/mayo.jpg",
     name: "Mayumi Bono",
     affiliation: "Associate Professor, National Institute of Informatics (NII), Japan",
-    title: "What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages"
+    title: "What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages",
+    photo_credit: "Photo: From NII Today No. 107."  
   },
   {
     image_path: "", // no picture link provided
@@ -339,7 +340,7 @@ const site_config: SiteConfig = {
     title: "Beyond the Gloss: Linguistic Challenges in Sign Language Data Collection and Annotation."
   },
   {
-    image_path: "",
+    image_path: "/WSLP-2026/Karen Livescu.jpeg",
     name: "Karen Livescu",
     affiliation: "Professor, TTI-Chicago",
     title: "A few steps toward understanding sign language in the real world"
