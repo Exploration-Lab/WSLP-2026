@@ -334,7 +334,7 @@ const site_config: SiteConfig = {
     photo_credit: "Photo: From NII Today No. 107."  
   },
   {
-    image_path: "", // no picture link provided
+    image_path: "/WSLP-2026/speaker3.png", // no picture link provided
     name: "Maram Salman Aljuaid",
     affiliation: "Lecturer and PhD Researcher in Linguistics, King Faisal University, Saudi Arabia",
     title: "Beyond the Gloss: Linguistic Challenges in Sign Language Data Collection and Annotation."
