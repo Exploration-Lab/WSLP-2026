@@ -318,7 +318,33 @@ const site_config: SiteConfig = {
 //             papers: undefined,
 //         },
 //     ],
-    invited_speakers: [],
+    // invited_speakers: [],
+    invited_speakers: [
+  {
+    image_path: "",
+    name: "Hamzah Luqman",
+    affiliation: "Associate Professor at King Fahd University of Petroleum & Minerals and Director of Arabic Sign Language Processing and Generation Lab",
+    title: "Sign Language Recognition in the Wild: Insights from Smartphone-Captured Datasets"
+  },
+  {
+    image_path: "",
+    name: "Mayumi Bono",
+    affiliation: "Associate Professor, National Institute of Informatics (NII), Japan",
+    title: "What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages"
+  },
+  {
+    image_path: "", // no picture link provided
+    name: "Maram Salman Aljuaid",
+    affiliation: "Lecturer and PhD Researcher in Linguistics, King Faisal University, Saudi Arabia",
+    title: "Beyond the Gloss: Linguistic Challenges in Sign Language Data Collection and Annotation."
+  },
+  {
+    image_path: "",
+    name: "Karen Livescu",
+    affiliation: "Professor, TTI-Chicago",
+    title: "A few steps toward understanding sign language in the real world"
+  }
+],
 //     invited_speakers: [{
 //     image_path: "/WSLP/amit.jpg",        // ← replace with your actual file
 //     name: "Dr. Amit Moryossef",
