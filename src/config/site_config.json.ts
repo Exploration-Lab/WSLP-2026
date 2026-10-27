@@ -82,7 +82,7 @@ const site_config: SiteConfig = {
         { name: "Call for Papers", href: "/WSLP-2026/call" },
         { name: "Shared Task", href: "/WSLP-2026/task" },
     ],
-    // anthology_link: "https://aclanthology.org/venues/WSLP/",
+    anthology_link: "https://aclanthology.org/volumes/2026.wslp-1/",
     email_link: "isign.benchmark@gmail.com",
     // youtube_link: "https://www.youtube.com/@WSLP",
     // x_link: "https://twitter.com/WSLP",
