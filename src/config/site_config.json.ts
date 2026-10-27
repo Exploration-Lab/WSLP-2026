@@ -122,7 +122,7 @@ const site_config: SiteConfig = {
     {
         start_time: "11:00",
         end_time: "12:00",
-        description: "**Paper presentations** (12 min each)  ",
+        description: "**Paper presentations** (10 min talk + 2 min Q&A)  ",
         papers: [
             {
                 title: "11:00–11:12: ISLiM: A Compact End-to-End Sign Language Translation Framework",
@@ -170,7 +170,7 @@ const site_config: SiteConfig = {
     {
         start_time: "15:00",
         end_time: "15:48",
-        description: "**Paper presentations** (12 min each)  ",
+        description: "**Paper presentations** (10 min talk + 2 min Q&A)  ",
         papers: [
             {
                 title: "15:00–15:12: Using Sign Phonology to Improve Few-Shot Cross-Lingual Transfer Learning for Sign Language Recognition",
