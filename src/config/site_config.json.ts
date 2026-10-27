@@ -321,13 +321,13 @@ const site_config: SiteConfig = {
     // invited_speakers: [],
     invited_speakers: [
   {
-    image_path: "",
+    image_path: "/WSLP-2026/Hamzah Luqman.jpeg",
     name: "Hamzah Luqman",
     affiliation: "Associate Professor at King Fahd University of Petroleum & Minerals and Director of Arabic Sign Language Processing and Generation Lab",
     title: "Sign Language Recognition in the Wild: Insights from Smartphone-Captured Datasets"
   },
   {
-    image_path: "",
+    image_path: "/WSLP-2026/mayo.jpg",
     name: "Mayumi Bono",
     affiliation: "Associate Professor, National Institute of Informatics (NII), Japan",
     title: "What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages"
