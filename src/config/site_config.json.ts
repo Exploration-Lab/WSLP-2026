@@ -329,7 +329,7 @@ const site_config: SiteConfig = {
   {
     image_path: "/WSLP-2026/mayo.jpg",
     name: "Mayumi Bono",
-    affiliation: "Associate Professor, National Institute of Informatics (NII), Japan",
+    affiliation: "Associate Professor, National Institute of Informatics (NII), Japan \ Photo: From NII Today No. 107.",
     title: "What Should Sign Language AI Recognize? Communication Beyond Shared Sign Languages",
     photo_credit: "Photo: From NII Today No. 107."  
   },
